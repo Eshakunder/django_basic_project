@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% load static %} <!-- Load the static template tag to use static files -->
+<html>
+<head>
+    <title>My Django App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to My Django App!</h1>
+    <p>This is the index page.</p>
+    <script type="text/javascript" src="{% static 'js/text.js' %}"></script>
+</html>
