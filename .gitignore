@@ -1,0 +1,12 @@
+# Manually added
+.env
+db.sqlite3
+venv/
+env/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Media and Static
+/static/
+/media/
